@@ -1,2 +1,2 @@
 # Site Link:
-*  https://cutt.ly/istore
+*  https://cutt.ly/ist0re
