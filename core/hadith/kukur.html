@@ -7,6 +7,16 @@
 
 <link rel="stylesheet" href="style.css">
 
+ <meta name="theme-color" content="#17A675">
+
+   <meta charset="UTF-8">  
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    	
+   <meta name="author" content="fazle rabbi">
+   <meta name="keywords" content="">
+   <meta name="description" content="">  
+ 
+
 
 
    </head>
@@ -34,8 +44,40 @@
 	
 	
 </div>
+<hr>
+   <button class="dark">Dark Mode</button>
+   <button class="light">Light Mode</button>
 
 
+<script>
+   
+   var darkbtn =document.querySelector("button");
+   var body =document.querySelector("body");
+   var div =document.querySelector(".main");
+   
+   darkbtn.addEventListener("click",function(){
+   body.style.background="#222";
+   body.style.color="white";
+   div.style.background="#222";
+   div.style.color="white";
+});
+
+
+   var lightbtn =document.querySelector(".light");
+   
+   lightbtn.addEventListener("click",function(){
+   body.style.background="white";
+   body.style.color="#222";
+   div.style.background="white";
+   div.style.color="#222";
+});
+
+   
+   
+   
+
+   
+</script>
 
 
 
